@@ -1,14 +1,19 @@
 # Load the API for VAD
 from inaSpeechSegmenter import Segmenter
-from voice_activity_detection import vad
 from argparse import ArgumentParser
-from speech_emotion_recognition import emotion_predictions as ep, feature_extraction as fe
+import speech_recognition as sr
+import utils
+from scipy.io.wavfile import write
+import numpy as np
+import io
 
+# usage:  python3 main.py -m mic -t bin
 parser = ArgumentParser()
 parser.add_argument("-m", "--mode",
                     dest="mode",
                     required=True,
-                    help="Methods of execution. Possible values: 'mic' for real time execution or 'file' for offline execution.",
+                    help="Methods of execution. Possible values: 'mic' for real time execution or 'file' for offline "
+                         "execution or 'real_mic' for real time execution in real environment.",
                     metavar="XX"
                     )
 parser.add_argument("-f", "--file_audio",
@@ -25,39 +30,43 @@ parser.add_argument("-t", "--type",
 
 
 args = vars(parser.parse_args())
-if args['mode'] == 'file' and (args['file_audio']) == None:
+if args['mode'] == 'file' and (args['file_audio']) is None:
     print("ERROR: To use the offline mode you need to specify a full-path audio file.")
     exit()
 
-
-
-
 # Part 1: Voice Activity Detection
-if args['mode']=='file':
+# Instantiate Segmenter once
+segmenter = Segmenter(vad_engine='smn', detect_gender=False)
+
+# Read audio from wav file
+if args['mode'] == 'file':
     filepath = args['file_audio']
-    seg = vad.check_speech(Segmenter(vad_engine='smn', detect_gender = False), filepath)
-    if seg == 'speech':
-        print("#########################################\n")
-        print("The audio contains speech. \nStarting Speech Emotion Recognition process.\n")
-        print("#########################################\n")
+    utils.execute_vad_ser(segmenter, filepath, args['model_type'])
 
-        # Part 1.2: Speech Emotion Recognition
-        # Prepare data
-        samples, sample_rate = fe.read_file(filepath)
-        new_samples = fe.cut_pad(samples)
-        mfccs = fe.mfccs_scaled(new_samples)
+# Read audio from local microphone
+elif args['mode'] == 'mic':
+    try:
+        while True:
+            r = sr.Recognizer()
+            with sr.Microphone() as source:
+                print("Speak:")  # REMOVE: this is used only for the purpose of demonstration
+                audio = r.listen(source, phrase_time_limit=5) # the timout set here is equal to length chosen to cut/pad training
+                filepath = "voice_activity_detection/tmp.wav"
+                with open(filepath, "wb") as f:
+                    f.write(audio.get_wav_data(convert_rate=16000))
+                utils.execute_vad_ser(segmenter, filepath, args['model_type'])
+    except KeyboardInterrupt:
+        print("Press Ctrl-C to terminate while statement")
 
-        # Make prediction
-        model = ep.load_model(args['model_type'])
-        pred = ep.make_predictions(model,args['model_type'],mfccs)
+# Read audio from local microphone
+elif args['mode'] == 'real_mic':
+    '''
+    TO DO: IP protocol to receive audio from real microphone in a continuous flow
+    - take the audio from buffer every 5 seconds with overlapping (idea used in Simon)
+    - write bytes into temporal wav (there is no latency problem since the write operation 
+        of a very small file is very small)
+    - execute_vad_ser
+    
+    '''
 
-        if pred == 1:
-            print("Speech contains disruptive emotion.")
-        else:
-            print("Speech does contain disruptive emotion.")
 
-
-    else:
-        print("#########################################\n")
-        print("The audio does not contain speech.\n")
-        print("#########################################\n")
