@@ -1,0 +1,641 @@
+emotion_label,actors,gender,path
+happy,91,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1091_IEO_HAP_HI.wav
+sadness,91,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1091_IEO_SAD_HI.wav
+angry,91,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1091_IEO_ANG_HI.wav
+disgust,91,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1091_IEO_DIS_HI.wav
+fear,91,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1091_IEO_FEA_HI.wav
+angry,89,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1089_IEO_ANG_HI.wav
+disgust,89,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1089_IEO_DIS_HI.wav
+fear,89,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1089_IEO_FEA_HI.wav
+happy,89,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1089_IEO_HAP_HI.wav
+sadness,89,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1089_IEO_SAD_HI.wav
+happy,87,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1087_IEO_HAP_HI.wav
+sadness,87,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1087_IEO_SAD_HI.wav
+angry,87,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1087_IEO_ANG_HI.wav
+disgust,87,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1087_IEO_DIS_HI.wav
+fear,87,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1087_IEO_FEA_HI.wav
+disgust,86,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1086_IEO_DIS_HI.wav
+fear,86,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1086_IEO_FEA_HI.wav
+happy,86,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1086_IEO_HAP_HI.wav
+sadness,86,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1086_IEO_SAD_HI.wav
+angry,86,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1086_IEO_ANG_HI.wav
+angry,85,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1085_IEO_ANG_HI.wav
+disgust,85,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1085_IEO_DIS_HI.wav
+fear,85,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1085_IEO_FEA_HI.wav
+happy,85,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1085_IEO_HAP_HI.wav
+sadness,85,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1085_IEO_SAD_HI.wav
+sadness,84,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1084_IEO_SAD_HI.wav
+angry,84,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1084_IEO_ANG_HI.wav
+disgust,84,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1084_IEO_DIS_HI.wav
+fear,84,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1084_IEO_FEA_HI.wav
+happy,84,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1084_IEO_HAP_HI.wav
+angry,81,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1081_IEO_ANG_HI.wav
+disgust,81,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1081_IEO_DIS_HI.wav
+fear,81,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1081_IEO_FEA_HI.wav
+happy,81,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1081_IEO_HAP_HI.wav
+sadness,81,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1081_IEO_SAD_HI.wav
+fear,78,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1078_IEO_FEA_HI.wav
+happy,78,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1078_IEO_HAP_HI.wav
+sadness,78,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1078_IEO_SAD_HI.wav
+angry,78,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1078_IEO_ANG_HI.wav
+disgust,78,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1078_IEO_DIS_HI.wav
+disgust,77,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1077_IEO_DIS_HI.wav
+fear,77,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1077_IEO_FEA_HI.wav
+happy,77,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1077_IEO_HAP_HI.wav
+sadness,77,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1077_IEO_SAD_HI.wav
+angry,77,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1077_IEO_ANG_HI.wav
+sadness,76,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1076_IEO_SAD_HI.wav
+angry,76,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1076_IEO_ANG_HI.wav
+disgust,76,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1076_IEO_DIS_HI.wav
+fear,76,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1076_IEO_FEA_HI.wav
+fear,75,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1075_IEO_FEA_HI.wav
+happy,75,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1075_IEO_HAP_HI.wav
+sadness,75,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1075_IEO_SAD_HI.wav
+angry,75,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1075_IEO_ANG_HI.wav
+disgust,75,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1075_IEO_DIS_HI.wav
+sadness,74,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1074_IEO_SAD_HI.wav
+angry,74,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1074_IEO_ANG_HI.wav
+disgust,74,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1074_IEO_DIS_HI.wav
+fear,74,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1074_IEO_FEA_HI.wav
+happy,74,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1074_IEO_HAP_HI.wav
+happy,76,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1076_IEO_HAP_HI.wav
+angry,71,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1071_IEO_ANG_HI.wav
+disgust,71,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1071_IEO_DIS_HI.wav
+fear,71,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1071_IEO_FEA_HI.wav
+happy,71,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1071_IEO_HAP_HI.wav
+sadness,71,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1071_IEO_SAD_HI.wav
+disgust,69,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1069_IEO_DIS_HI.wav
+fear,69,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1069_IEO_FEA_HI.wav
+happy,69,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1069_IEO_HAP_HI.wav
+sadness,69,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1069_IEO_SAD_HI.wav
+angry,69,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1069_IEO_ANG_HI.wav
+angry,67,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1067_IEO_ANG_HI.wav
+disgust,67,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1067_IEO_DIS_HI.wav
+fear,67,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1067_IEO_FEA_HI.wav
+happy,67,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1067_IEO_HAP_HI.wav
+sadness,67,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1067_IEO_SAD_HI.wav
+fear,66,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1066_IEO_FEA_HI.wav
+happy,66,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1066_IEO_HAP_HI.wav
+sadness,66,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1066_IEO_SAD_HI.wav
+angry,66,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1066_IEO_ANG_HI.wav
+disgust,66,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1066_IEO_DIS_HI.wav
+angry,65,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1065_IEO_ANG_HI.wav
+disgust,65,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1065_IEO_DIS_HI.wav
+fear,65,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1065_IEO_FEA_HI.wav
+happy,65,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1065_IEO_HAP_HI.wav
+sadness,65,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1065_IEO_SAD_HI.wav
+angry,63,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1063_IEO_ANG_HI.wav
+disgust,63,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1063_IEO_DIS_HI.wav
+fear,63,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1063_IEO_FEA_HI.wav
+happy,63,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1063_IEO_HAP_HI.wav
+sadness,63,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1063_IEO_SAD_HI.wav
+fear,60,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1060_IEO_FEA_HI.wav
+happy,60,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1060_IEO_HAP_HI.wav
+sadness,60,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1060_IEO_SAD_HI.wav
+angry,60,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1060_IEO_ANG_HI.wav
+disgust,60,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1060_IEO_DIS_HI.wav
+sadness,59,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1059_IEO_SAD_HI.wav
+angry,59,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1059_IEO_ANG_HI.wav
+disgust,59,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1059_IEO_DIS_HI.wav
+fear,59,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1059_IEO_FEA_HI.wav
+happy,59,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1059_IEO_HAP_HI.wav
+angry,58,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1058_IEO_ANG_HI.wav
+disgust,58,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1058_IEO_DIS_HI.wav
+fear,58,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1058_IEO_FEA_HI.wav
+happy,58,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1058_IEO_HAP_HI.wav
+sadness,58,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1058_IEO_SAD_HI.wav
+fear,57,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1057_IEO_FEA_HI.wav
+happy,57,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1057_IEO_HAP_HI.wav
+sadness,57,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1057_IEO_SAD_HI.wav
+angry,57,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1057_IEO_ANG_HI.wav
+disgust,57,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1057_IEO_DIS_HI.wav
+sadness,56,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1056_IEO_SAD_HI.wav
+angry,56,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1056_IEO_ANG_HI.wav
+disgust,56,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1056_IEO_DIS_HI.wav
+fear,56,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1056_IEO_FEA_HI.wav
+happy,56,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1056_IEO_HAP_HI.wav
+happy,55,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1055_IEO_HAP_HI.wav
+sadness,55,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1055_IEO_SAD_HI.wav
+angry,55,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1055_IEO_ANG_HI.wav
+disgust,55,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1055_IEO_DIS_HI.wav
+angry,54,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1054_IEO_ANG_HI.wav
+disgust,54,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1054_IEO_DIS_HI.wav
+fear,54,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1054_IEO_FEA_HI.wav
+happy,54,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1054_IEO_HAP_HI.wav
+sadness,54,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1054_IEO_SAD_HI.wav
+happy,53,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1053_IEO_HAP_HI.wav
+sadness,53,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1053_IEO_SAD_HI.wav
+angry,53,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1053_IEO_ANG_HI.wav
+disgust,53,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1053_IEO_DIS_HI.wav
+angry,52,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1052_IEO_ANG_HI.wav
+disgust,52,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1052_IEO_DIS_HI.wav
+fear,52,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1052_IEO_FEA_HI.wav
+happy,52,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1052_IEO_HAP_HI.wav
+sadness,52,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1052_IEO_SAD_HI.wav
+angry,51,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1051_IEO_ANG_HI.wav
+disgust,51,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1051_IEO_DIS_HI.wav
+fear,51,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1051_IEO_FEA_HI.wav
+happy,51,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1051_IEO_HAP_HI.wav
+sadness,51,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1051_IEO_SAD_HI.wav
+fear,50,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1050_IEO_FEA_HI.wav
+happy,50,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1050_IEO_HAP_HI.wav
+sadness,50,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1050_IEO_SAD_HI.wav
+angry,50,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1050_IEO_ANG_HI.wav
+angry,49,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1049_IEO_ANG_HI.wav
+disgust,49,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1049_IEO_DIS_HI.wav
+fear,49,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1049_IEO_FEA_HI.wav
+happy,49,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1049_IEO_HAP_HI.wav
+sadness,49,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1049_IEO_SAD_HI.wav
+fear,55,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1055_IEO_FEA_HI.wav
+angry,48,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1048_IEO_ANG_HI.wav
+disgust,48,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1048_IEO_DIS_HI.wav
+fear,48,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1048_IEO_FEA_HI.wav
+happy,48,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1048_IEO_HAP_HI.wav
+angry,46,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1046_IEO_ANG_HI.wav
+disgust,46,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1046_IEO_DIS_HI.wav
+fear,46,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1046_IEO_FEA_HI.wav
+happy,46,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1046_IEO_HAP_HI.wav
+disgust,50,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1050_IEO_DIS_HI.wav
+angry,45,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1045_IEO_ANG_HI.wav
+disgust,45,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1045_IEO_DIS_HI.wav
+fear,45,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1045_IEO_FEA_HI.wav
+happy,45,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1045_IEO_HAP_HI.wav
+sadness,45,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1045_IEO_SAD_HI.wav
+sadness,44,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1044_IEO_SAD_HI.wav
+angry,44,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1044_IEO_ANG_HI.wav
+disgust,44,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1044_IEO_DIS_HI.wav
+fear,44,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1044_IEO_FEA_HI.wav
+disgust,42,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1042_IEO_DIS_HI.wav
+fear,42,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1042_IEO_FEA_HI.wav
+happy,42,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1042_IEO_HAP_HI.wav
+sadness,42,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1042_IEO_SAD_HI.wav
+sadness,46,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1046_IEO_SAD_HI.wav
+sadness,48,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1048_IEO_SAD_HI.wav
+angry,41,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1041_IEO_ANG_HI.wav
+disgust,41,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1041_IEO_DIS_HI.wav
+fear,41,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1041_IEO_FEA_HI.wav
+happy,41,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1041_IEO_HAP_HI.wav
+angry,39,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1039_IEO_ANG_HI.wav
+disgust,39,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1039_IEO_DIS_HI.wav
+fear,39,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1039_IEO_FEA_HI.wav
+happy,39,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1039_IEO_HAP_HI.wav
+sadness,39,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1039_IEO_SAD_HI.wav
+angry,42,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1042_IEO_ANG_HI.wav
+happy,44,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1044_IEO_HAP_HI.wav
+fear,37,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1037_IEO_FEA_HI.wav
+happy,37,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1037_IEO_HAP_HI.wav
+sadness,37,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1037_IEO_SAD_HI.wav
+angry,37,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1037_IEO_ANG_HI.wav
+disgust,37,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1037_IEO_DIS_HI.wav
+angry,36,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1036_IEO_ANG_HI.wav
+disgust,36,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1036_IEO_DIS_HI.wav
+fear,36,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1036_IEO_FEA_HI.wav
+happy,36,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1036_IEO_HAP_HI.wav
+sadness,36,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1036_IEO_SAD_HI.wav
+sadness,41,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1041_IEO_SAD_HI.wav
+disgust,34,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1034_IEO_DIS_HI.wav
+fear,34,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1034_IEO_FEA_HI.wav
+happy,34,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1034_IEO_HAP_HI.wav
+sadness,34,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1034_IEO_SAD_HI.wav
+angry,34,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1034_IEO_ANG_HI.wav
+angry,33,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1033_IEO_ANG_HI.wav
+disgust,33,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1033_IEO_DIS_HI.wav
+fear,33,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1033_IEO_FEA_HI.wav
+happy,33,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1033_IEO_HAP_HI.wav
+sadness,32,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1032_IEO_SAD_HI.wav
+angry,32,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1032_IEO_ANG_HI.wav
+disgust,32,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1032_IEO_DIS_HI.wav
+fear,32,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1032_IEO_FEA_HI.wav
+disgust,31,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1031_IEO_DIS_HI.wav
+fear,31,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1031_IEO_FEA_HI.wav
+happy,31,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1031_IEO_HAP_HI.wav
+sadness,31,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1031_IEO_SAD_HI.wav
+angry,31,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1031_IEO_ANG_HI.wav
+angry,30,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1030_IEO_ANG_HI.wav
+disgust,30,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1030_IEO_DIS_HI.wav
+fear,30,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1030_IEO_FEA_HI.wav
+happy,30,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1030_IEO_HAP_HI.wav
+sadness,30,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1030_IEO_SAD_HI.wav
+sadness,29,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1029_IEO_SAD_HI.wav
+angry,29,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1029_IEO_ANG_HI.wav
+disgust,29,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1029_IEO_DIS_HI.wav
+fear,29,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1029_IEO_FEA_HI.wav
+happy,29,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1029_IEO_HAP_HI.wav
+fear,28,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1028_IEO_FEA_HI.wav
+happy,28,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1028_IEO_HAP_HI.wav
+sadness,28,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1028_IEO_SAD_HI.wav
+happy,32,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1032_IEO_HAP_HI.wav
+sadness,33,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1033_IEO_SAD_HI.wav
+angry,28,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1028_IEO_ANG_HI.wav
+disgust,28,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1028_IEO_DIS_HI.wav
+angry,23,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1023_IEO_ANG_HI.wav
+disgust,23,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1023_IEO_DIS_HI.wav
+fear,23,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1023_IEO_FEA_HI.wav
+happy,23,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1023_IEO_HAP_HI.wav
+fear,22,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1022_IEO_FEA_HI.wav
+happy,22,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1022_IEO_HAP_HI.wav
+sadness,22,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1022_IEO_SAD_HI.wav
+angry,22,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1022_IEO_ANG_HI.wav
+disgust,22,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1022_IEO_DIS_HI.wav
+disgust,21,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1021_IEO_DIS_HI.wav
+fear,21,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1021_IEO_FEA_HI.wav
+happy,21,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1021_IEO_HAP_HI.wav
+sadness,21,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1021_IEO_SAD_HI.wav
+angry,20,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1020_IEO_ANG_HI.wav
+disgust,20,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1020_IEO_DIS_HI.wav
+fear,20,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1020_IEO_FEA_HI.wav
+happy,20,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1020_IEO_HAP_HI.wav
+sadness,18,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1018_IEO_SAD_HI.wav
+angry,18,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1018_IEO_ANG_HI.wav
+disgust,18,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1018_IEO_DIS_HI.wav
+fear,18,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1018_IEO_FEA_HI.wav
+sadness,23,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1023_IEO_SAD_HI.wav
+sadness,15,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1015_IEO_SAD_HI.wav
+angry,15,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1015_IEO_ANG_HI.wav
+disgust,15,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1015_IEO_DIS_HI.wav
+fear,15,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1015_IEO_FEA_HI.wav
+happy,15,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1015_IEO_HAP_HI.wav
+happy,18,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1018_IEO_HAP_HI.wav
+sadness,20,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1020_IEO_SAD_HI.wav
+angry,21,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1021_IEO_ANG_HI.wav
+happy,14,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1014_IEO_HAP_HI.wav
+sadness,14,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1014_IEO_SAD_HI.wav
+angry,14,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1014_IEO_ANG_HI.wav
+disgust,14,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1014_IEO_DIS_HI.wav
+fear,14,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1014_IEO_FEA_HI.wav
+fear,13,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1013_IEO_FEA_HI.wav
+happy,13,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1013_IEO_HAP_HI.wav
+sadness,13,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1013_IEO_SAD_HI.wav
+angry,13,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1013_IEO_ANG_HI.wav
+disgust,13,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1013_IEO_DIS_HI.wav
+sadness,11,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1011_IEO_SAD_HI.wav
+angry,11,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1011_IEO_ANG_HI.wav
+disgust,11,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1011_IEO_DIS_HI.wav
+fear,11,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1011_IEO_FEA_HI.wav
+happy,11,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1011_IEO_HAP_HI.wav
+fear,10,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1010_IEO_FEA_HI.wav
+happy,10,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1010_IEO_HAP_HI.wav
+sadness,10,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1010_IEO_SAD_HI.wav
+angry,10,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1010_IEO_ANG_HI.wav
+disgust,10,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1010_IEO_DIS_HI.wav
+angry,09,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1009_IEO_ANG_HI.wav
+disgust,09,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1009_IEO_DIS_HI.wav
+fear,09,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1009_IEO_FEA_HI.wav
+happy,09,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1009_IEO_HAP_HI.wav
+angry,07,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1007_IEO_ANG_HI.wav
+disgust,07,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1007_IEO_DIS_HI.wav
+fear,07,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1007_IEO_FEA_HI.wav
+happy,07,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1007_IEO_HAP_HI.wav
+sadness,07,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1007_IEO_SAD_HI.wav
+happy,06,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1006_IEO_HAP_HI.wav
+sadness,06,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1006_IEO_SAD_HI.wav
+angry,06,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1006_IEO_ANG_HI.wav
+disgust,06,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1006_IEO_DIS_HI.wav
+fear,06,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1006_IEO_FEA_HI.wav
+fear,05,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1005_IEO_FEA_HI.wav
+happy,05,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1005_IEO_HAP_HI.wav
+sadness,05,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1005_IEO_SAD_HI.wav
+angry,05,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1005_IEO_ANG_HI.wav
+disgust,05,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1005_IEO_DIS_HI.wav
+angry,04,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1004_IEO_ANG_HI.wav
+disgust,04,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1004_IEO_DIS_HI.wav
+fear,04,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1004_IEO_FEA_HI.wav
+happy,04,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1004_IEO_HAP_HI.wav
+sadness,04,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1004_IEO_SAD_HI.wav
+sadness,09,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1009_IEO_SAD_HI.wav
+happy,03,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1003_IEO_HAP_HI.wav
+sadness,03,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1003_IEO_SAD_HI.wav
+angry,03,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1003_IEO_ANG_HI.wav
+disgust,03,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1003_IEO_DIS_HI.wav
+fear,03,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1003_IEO_FEA_HI.wav
+disgust,02,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1002_IEO_DIS_HI.wav
+fear,02,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1002_IEO_FEA_HI.wav
+happy,02,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1002_IEO_HAP_HI.wav
+sadness,02,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1002_IEO_SAD_HI.wav
+angry,02,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1002_IEO_ANG_HI.wav
+angry,01,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1001_IEO_ANG_HI.wav
+disgust,01,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1001_IEO_DIS_HI.wav
+fear,01,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1001_IEO_FEA_HI.wav
+happy,01,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1001_IEO_HAP_HI.wav
+sadness,01,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1001_IEO_SAD_HI.wav
+fear,53,female,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/creamd/AudioWAV/1053_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1091_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1091_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1091_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1091_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1091_IEO_FEA_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1089_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1089_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1089_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1089_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1089_IEO_SAD_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1087_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1087_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1087_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1087_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1087_IEO_FEA_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1086_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1086_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1086_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1086_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1086_IEO_ANG_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1085_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1085_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1085_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1085_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1085_IEO_SAD_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1084_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1084_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1084_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1084_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1084_IEO_HAP_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1081_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1081_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1081_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1081_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1081_IEO_SAD_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1078_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1078_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1078_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1078_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1078_IEO_DIS_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1077_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1077_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1077_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1077_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1077_IEO_ANG_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1076_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1076_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1076_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1076_IEO_FEA_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1075_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1075_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1075_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1075_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1075_IEO_DIS_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1074_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1074_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1074_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1074_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1074_IEO_HAP_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1076_IEO_HAP_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1071_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1071_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1071_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1071_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1071_IEO_SAD_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1069_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1069_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1069_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1069_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1069_IEO_ANG_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1067_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1067_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1067_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1067_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1067_IEO_SAD_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1066_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1066_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1066_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1066_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1066_IEO_DIS_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1065_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1065_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1065_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1065_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1065_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1063_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1063_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1063_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1063_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1063_IEO_SAD_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1060_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1060_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1060_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1060_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1060_IEO_DIS_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1059_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1059_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1059_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1059_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1059_IEO_HAP_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1058_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1058_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1058_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1058_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1058_IEO_SAD_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1057_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1057_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1057_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1057_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1057_IEO_DIS_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1056_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1056_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1056_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1056_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1056_IEO_HAP_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1055_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1055_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1055_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1055_IEO_DIS_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1054_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1054_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1054_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1054_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1054_IEO_SAD_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1053_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1053_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1053_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1053_IEO_DIS_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1052_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1052_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1052_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1052_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1052_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1051_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1051_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1051_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1051_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1051_IEO_SAD_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1050_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1050_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1050_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1050_IEO_ANG_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1049_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1049_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1049_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1049_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1049_IEO_SAD_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1055_IEO_FEA_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1048_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1048_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1048_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1048_IEO_HAP_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1046_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1046_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1046_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1046_IEO_HAP_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1050_IEO_DIS_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1045_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1045_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1045_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1045_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1045_IEO_SAD_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1044_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1044_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1044_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1044_IEO_FEA_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1042_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1042_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1042_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1042_IEO_SAD_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1046_IEO_SAD_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1048_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1041_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1041_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1041_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1041_IEO_HAP_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1039_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1039_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1039_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1039_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1039_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1042_IEO_ANG_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1044_IEO_HAP_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1037_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1037_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1037_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1037_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1037_IEO_DIS_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1036_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1036_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1036_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1036_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1036_IEO_SAD_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1041_IEO_SAD_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1034_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1034_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1034_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1034_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1034_IEO_ANG_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1033_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1033_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1033_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1033_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1032_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1032_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1032_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1032_IEO_FEA_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1031_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1031_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1031_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1031_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1031_IEO_ANG_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1030_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1030_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1030_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1030_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1030_IEO_SAD_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1029_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1029_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1029_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1029_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1029_IEO_HAP_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1028_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1028_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1028_IEO_SAD_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1032_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1033_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1028_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1028_IEO_DIS_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1023_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1023_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1023_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1023_IEO_HAP_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1022_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1022_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1022_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1022_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1022_IEO_DIS_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1021_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1021_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1021_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1021_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1020_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1020_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1020_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1020_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1018_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1018_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1018_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1018_IEO_FEA_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1023_IEO_SAD_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1015_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1015_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1015_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1015_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1015_IEO_HAP_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1018_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1020_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1021_IEO_ANG_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1014_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1014_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1014_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1014_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1014_IEO_FEA_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1013_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1013_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1013_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1013_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1013_IEO_DIS_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1011_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1011_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1011_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1011_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1011_IEO_HAP_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1010_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1010_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1010_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1010_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1010_IEO_DIS_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1009_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1009_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1009_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1009_IEO_HAP_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1007_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1007_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1007_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1007_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1007_IEO_SAD_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1006_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1006_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1006_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1006_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1006_IEO_FEA_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1005_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1005_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1005_IEO_SAD_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1005_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1005_IEO_DIS_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1004_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1004_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1004_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1004_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1004_IEO_SAD_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1009_IEO_SAD_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1003_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1003_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1003_IEO_ANG_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1003_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1003_IEO_FEA_HI.wav
+disgust,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1002_IEO_DIS_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1002_IEO_FEA_HI.wav
+happy,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1002_IEO_HAP_HI.wav
+sadness,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1002_IEO_SAD_HI.wav
+angry,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1002_IEO_ANG_HI.wav
+angry,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1001_IEO_ANG_HI.wav
+disgust,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1001_IEO_DIS_HI.wav
+fear,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1001_IEO_FEA_HI.wav
+happy,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1001_IEO_HAP_HI.wav
+sadness,,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1001_IEO_SAD_HI.wav
+fear,,female,/home/helemanc/Desktop/Binary_Model/noise_datasets/crema/train/1053_IEO_FEA_HI.wav

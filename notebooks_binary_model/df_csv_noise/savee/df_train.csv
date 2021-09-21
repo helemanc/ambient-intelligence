@@ -1,0 +1,481 @@
+emotion_label,gender,path
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n25.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a02.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d07.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f11.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n06.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su11.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su12.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su13.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su14.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su15.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa07.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa08.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa09.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa10.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa11.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa12.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa13.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa14.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa15.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su01.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su02.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su03.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su04.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su05.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su06.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su07.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su08.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su09.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n11.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n12.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n13.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n14.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n15.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n16.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n17.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n18.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n19.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n20.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n21.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n22.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n23.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n24.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n25.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n26.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n27.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n28.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n29.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n30.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa01.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa02.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa03.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa04.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa05.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h07.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h08.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h09.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h10.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h11.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h12.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h13.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h14.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h15.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n01.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n02.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n03.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n04.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n05.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n06.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n07.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n08.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n09.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d13.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d14.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d15.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f01.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f02.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f03.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f04.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f05.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f06.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f07.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f08.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f09.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f10.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f11.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f12.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f13.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f14.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_f15.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h01.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h02.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h03.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h04.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h05.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a08.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a09.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a10.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a11.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a12.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a13.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a14.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a15.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d01.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d02.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d03.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d04.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d05.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d06.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d07.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d08.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d09.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d10.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d11.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su01.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su02.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su03.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su04.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su05.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su06.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su07.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su08.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su09.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su10.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su11.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su12.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su13.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su14.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_su15.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a01.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a02.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a03.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a04.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a05.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a06.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n26.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n27.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n28.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n29.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n30.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa01.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa02.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa03.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa04.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa05.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa06.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa07.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa08.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa09.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa10.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa11.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa12.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa13.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa14.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n07.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n08.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n09.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n10.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n11.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n12.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n13.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n14.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n15.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n16.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n17.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n18.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n19.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n20.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n21.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n22.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n23.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n24.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f12.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f13.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f14.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f15.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h01.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h02.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h03.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h04.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h05.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h06.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h07.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h08.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h09.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h10.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h11.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h12.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h13.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h14.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_h15.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n01.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n02.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n03.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n04.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_n05.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d08.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d09.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d10.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d11.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d12.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d13.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d14.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d15.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f01.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f02.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f03.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f04.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f05.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f06.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f07.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f08.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f09.wav
+fear,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_f10.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a03.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a04.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a05.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a06.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a07.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a08.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a09.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a10.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a11.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a12.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a13.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a14.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a15.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d01.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d02.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d03.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d04.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d05.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_d06.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_a01.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/DC_sa15.wav
+angry,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_a07.wav
+disgust,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_d12.wav
+happy,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_h06.wav
+neutral,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_n10.wav
+sadness,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_sa06.wav
+surprise,male,/media/helemanc/OS/Users/i2CAT/Desktop/Datasets SER/savee/ALL/JE_su10.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n25.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a02.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d07.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f11.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n06.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su11.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su12.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su13.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su14.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su15.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa07.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa08.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa09.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa10.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa11.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa12.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa13.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa14.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa15.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su01.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su02.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su03.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su04.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su05.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su06.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su07.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su08.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su09.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n11.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n12.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n13.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n14.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n15.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n16.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n17.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n18.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n19.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n20.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n21.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n22.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n23.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n24.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n25.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n26.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n27.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n28.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n29.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n30.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa01.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa02.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa03.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa04.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa05.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h07.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h08.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h09.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h10.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h11.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h12.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h13.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h14.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h15.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n01.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n02.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n03.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n04.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n05.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n06.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n07.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n08.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n09.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d13.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d14.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d15.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f01.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f02.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f03.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f04.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f05.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f06.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f07.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f08.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f09.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f10.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f11.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f12.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f13.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f14.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_f15.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h01.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h02.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h03.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h04.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h05.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a08.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a09.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a10.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a11.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a12.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a13.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a14.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a15.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d01.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d02.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d03.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d04.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d05.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d06.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d07.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d08.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d09.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d10.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d11.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su01.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su02.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su03.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su04.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su05.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su06.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su07.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su08.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su09.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su10.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su11.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su12.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su13.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su14.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_su15.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a01.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a02.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a03.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a04.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a05.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a06.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n26.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n27.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n28.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n29.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n30.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa01.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa02.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa03.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa04.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa05.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa06.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa07.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa08.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa09.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa10.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa11.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa12.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa13.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa14.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n07.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n08.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n09.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n10.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n11.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n12.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n13.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n14.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n15.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n16.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n17.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n18.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n19.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n20.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n21.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n22.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n23.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n24.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f12.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f13.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f14.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f15.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h01.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h02.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h03.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h04.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h05.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h06.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h07.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h08.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h09.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h10.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h11.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h12.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h13.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h14.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_h15.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n01.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n02.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n03.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n04.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_n05.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d08.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d09.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d10.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d11.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d12.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d13.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d14.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d15.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f01.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f02.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f03.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f04.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f05.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f06.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f07.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f08.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f09.wav
+fear,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_f10.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a03.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a04.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a05.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a06.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a07.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a08.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a09.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a10.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a11.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a12.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a13.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a14.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a15.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d01.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d02.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d03.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d04.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d05.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_d06.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_a01.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/DC_sa15.wav
+angry,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_a07.wav
+disgust,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_d12.wav
+happy,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_h06.wav
+neutral,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_n10.wav
+sadness,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_sa06.wav
+surprise,male,/home/helemanc/Desktop/Binary_Model/noise_datasets/savee/train/JE_su10.wav
