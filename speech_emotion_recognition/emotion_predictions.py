@@ -1,5 +1,15 @@
 import tensorflow as tf
 
+
+def make_predictions(model, model_type, audio_features):
+    pred = model.predict(audio_features)
+    final_prediction = 1 * (pred >= 0.5)
+    if final_prediction == 1:
+        return 1  # disruptive
+    else:
+        return 0  # non-disruptive
+
+'''
 def load_model(model_type):
     if model_type == 'bin':
         model = tf.keras.models.load_model("speech_emotion_recognition/models/binary_model")
@@ -10,7 +20,7 @@ def load_model(model_type):
 def make_predictions(model, model_type, audio_samples):
     pred = model.predict(audio_samples)
     if model_type == 'bin':
-        final_prediction = [1 * (x[0]>=0.52) for x in pred]
+        final_prediction = [1 * (x[0]>=0.5) for x in pred]
         if final_prediction == 1:
             return 1 # disruptive
         else:
@@ -22,5 +32,6 @@ def make_predictions(model, model_type, audio_samples):
             return 1
         else:
             return 0
+'''
 
 

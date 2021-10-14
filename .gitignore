@@ -131,3 +131,17 @@ dmypy.json
 
 # Folders to ignore
 speech_emotion_recognition/datasets/
+/speech_emotion_recognition/datasets/
+/notebooks_binary_model/concatenation_audio/
+/notebooks_binary_model/pre-processed-nocrema/
+/notebooks_binary_model/pre-processed/
+/notebooks_binary_model/myenv/
+/notebooks_binary_model/normalized_audio/
+/notebooks_binary_model/noise_datasets/
+/notebooks_binary_model/noise_sounds/
+/notebooks_binary_model/ffmpeg-normalize/
+/speech_emotion_recognition/datasets/
+/notebooks_binary_model/models/
+/voice_activity_detection/validation/datasets/
+/notebooks_binary_model/data_model/
+/notebooks_binary_model/data_model_augmented/

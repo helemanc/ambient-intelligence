@@ -3,6 +3,42 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/df_csv_noise/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/logs/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models_experiments/Experiment_1/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models_experiments/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/speech_emotion_recognition/datasets/emo-db" />
+      <excludeFolder url="file://$MODULE_DIR$/voice_activity_detection/validation/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/data_model_augmented/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/ffmpeg-normalize/ffmpeg-normalize/build" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/ffmpeg-normalize/ffmpeg-normalize/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/ffmpeg-normalize/ffmpeg-normalize/ffmpeg_normalize.egg-info" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/ffmpeg-normalize/myenv/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/ffmpeg-normalize/myenv/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/ffmpeg-normalize/build" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/ffmpeg-normalize/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/ffmpeg-normalize/ffmpeg_normalize.egg-info" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models/binary_model/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models/binary_model_aug/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models/binary_model_ravdess_13_83/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models/binary_model_ravdess_13_91/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models/binary_model_ravdess_13_after_optimization/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models/binary_model_shuffle/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models_experiments/Experiment_5/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models_experiments/Experiment_8/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/scalers_experiments/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/concatenation_audio" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/myenv" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/noise_datasets" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/noise_sounds" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/normalized_audio" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/pre-processed" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/pre-processed-nocrema" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/data_model" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/data_model_augmented" />
+      <excludeFolder url="file://$MODULE_DIR$/notebooks_binary_model/models" />
+      <excludeFolder url="file://$MODULE_DIR$/speech_emotion_recognition/datasets" />
+      <excludeFolder url="file://$MODULE_DIR$/voice_activity_detection/validation/datasets" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (ambient-intelligence)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

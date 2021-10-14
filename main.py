@@ -3,11 +3,13 @@ from inaSpeechSegmenter import Segmenter
 from argparse import ArgumentParser
 import speech_recognition as sr
 import utils
-from scipy.io.wavfile import write
-import numpy as np
-import io
+import warnings
 
-# usage:  python3 main.py -m mic -t bin
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=RuntimeWarning)
+
+# usage:  python3 main.py -m file -f 'media/03-01-01-01-01-01-01.wav'
+# usage disruptive: python3 main.py -m file -f 'media/03-01-05-02-02-02-03.wav'
 parser = ArgumentParser()
 parser.add_argument("-m", "--mode",
                     dest="mode",
@@ -21,12 +23,13 @@ parser.add_argument("-f", "--file_audio",
                     required=False,
                     help="Audio file to analyze. The audio file must be provided with the complete path.",
                     metavar="XX")
-
+'''
 parser.add_argument("-t", "--type",
                     dest="model_type",
                     required=True,
                     help="Type of emotion classification. Possible values: 'bin' for binary classification, 'mul' for multi-class classification ",
                     metavar="XX")
+'''
 
 
 args = vars(parser.parse_args())
@@ -41,7 +44,7 @@ segmenter = Segmenter(vad_engine='smn', detect_gender=False)
 # Read audio from wav file
 if args['mode'] == 'file':
     filepath = args['file_audio']
-    utils.execute_vad_ser(segmenter, filepath, args['model_type'])
+    utils.execute_vad_ser(segmenter, filepath)
 
 # Read audio from local microphone
 elif args['mode'] == 'mic':
@@ -68,5 +71,6 @@ elif args['mode'] == 'real_mic':
     - execute_vad_ser
     
     '''
+
 
 
