@@ -3,32 +3,56 @@ from speech_emotion_recognition import feature_extraction as fe, ensemble
 import scipy
 import numpy as np
 from scipy import signal
+from scipy.io.wavfile import write
+import datetime
 
 def denoise(samples):
-    samples_weiner = scipy.signal.wiener(samples)
-    return samples_weiner
+    """
+    :param samples:
+    :type samples:
+    :return:
+    :rtype:
+    """
+    samples_wiener = scipy.signal.wiener(samples)
+    return samples_wiener
 
 
-def execute_vad_ser(segmenter, filepath):
-    seg = vad.check_speech(segmenter, filepath)
+def execute_vad_ser(segmenter, filepath, prediction_scheme):
+    """
+    :param segmenter:
+    :type segmenter:
+    :param filepath:
+    :type filepath:
+    :param prediction_scheme:
+    :type prediction_scheme:
+    :return:
+    :rtype:
+    """
+
+    samples, sample_rate = fe.read_file(filepath)
+    samples, sample_rate = resample(samples, sample_rate)
+    new_samples = fe.cut_pad(samples)
+    samples_wiener = denoise(new_samples)
+    new_filepath = "voice_activity_detection/tmp.wav"
+    write(new_filepath, sample_rate, samples_wiener)
+
+    seg = vad.check_speech(segmenter, new_filepath)
     if seg == 'speech':
         print("#########################################\n")
         print("The audio contains speech. \nStarting Speech Emotion Recognition process.\n")
         print("#########################################\n")
 
-        # Part 1.2: Speech Emotion Recognition
-        # Prepare data
-        samples, sample_rate = fe.read_file(filepath)
-        samples, sample_rate = resample(samples, sample_rate)
-        new_samples = fe.cut_pad(samples)
-        #samples_weiner = denoise(new_samples)
-        #mfccs = fe.mfccs_scaled(samples_weiner)
-        final_prediction = ensemble.ensemble(new_samples)
+        #start_time = datetime.datetime.now()
+
+        final_prediction = ensemble.ensemble(new_samples, prediction_scheme)
+
+        #elapsed = datetime.datetime.now() - start_time
+        #print("Time elapsed for SER", elapsed)
 
         if final_prediction == 1:
             print("Speech contains disruptive emotion.")
         else:
-            print("Speech does contain disruptive emotion.")
+            print("Speech does not contain disruptive emotion.")
 
 def resample(input_data, sample_rate, required_sample_rate=16000, amplify=False):
     """

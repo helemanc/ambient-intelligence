@@ -1,37 +1,34 @@
-import tensorflow as tf
+def make_predictions(model, model_type, audio_features, prediction_scheme):
+    """
+    :param model:
+    :type model:
+    :param model_type:
+    :type model_type:
+    :param audio_features:
+    :type audio_features:
+    :param prediction_scheme:
+    :type prediction_scheme:
+    :return:
+    :rtype:
+    """
+    # return: prediction_probability, final_prediction
+    if model_type == 'conv':
+        assigned_prob = model.predict(audio_features)[0][0]
+        final_prediction = 1 * (assigned_prob >= 0.5)
+    elif model_type == 'svm':
+        final_prediction = model.predict(audio_features)
+        pred = model.predict_proba(audio_features)[0]
+        """
+        We need to do this to reproduce the behaviour of a sigmoid function 
+        We can always take the probability of class 1. 
+        If prob_class_1 < prob_class_0, the whole prediction will naturally be nearer to class 0 
+        since we will use an average of all the probability predictions
+        """
+        assigned_prob = pred[1]
 
-
-def make_predictions(model, model_type, audio_features):
-    pred = model.predict(audio_features)
-    final_prediction = 1 * (pred >= 0.5)
-    if final_prediction == 1:
-        return 1  # disruptive
+    if prediction_scheme == 'majority':
+        return int(final_prediction)
     else:
-        return 0  # non-disruptive
-
-'''
-def load_model(model_type):
-    if model_type == 'bin':
-        model = tf.keras.models.load_model("speech_emotion_recognition/models/binary_model")
-    else:
-        model = tf.keras.models.load_model("speech_emotion_recognition/models/multiclass_model")
-    return model
-
-def make_predictions(model, model_type, audio_samples):
-    pred = model.predict(audio_samples)
-    if model_type == 'bin':
-        final_prediction = [1 * (x[0]>=0.5) for x in pred]
-        if final_prediction == 1:
-            return 1 # disruptive
-        else:
-            return 0 # non-disruptive
-    else:
-        disruptive_emotions = [0,1,4,6]
-        final_prediction = pred.argmax()
-        if final_prediction in disruptive_emotions:
-            return 1
-        else:
-            return 0
-'''
-
+        return assigned_prob
+        
 
