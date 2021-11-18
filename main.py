@@ -1,4 +1,3 @@
-# Load the API for VAD
 from inaSpeechSegmenter import Segmenter
 from argparse import ArgumentParser
 import speech_recognition as sr
