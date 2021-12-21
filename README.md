@@ -59,3 +59,6 @@ interfaces of the laptop through the SpeechRecognition library for Python.
   - `avg_2`
 
 Full command example: `python3 main.py -m file -f 'media/03-01-01-01-01-01-01_noise.wav'`
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/helemanc/ambient-intelligence/blob/main/LICENSE) file for details.
