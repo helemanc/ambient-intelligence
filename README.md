@@ -20,10 +20,7 @@ We aggregated several models through ensemble learning. The ensemble was evaluat
 encouraging experimental results, even compared to the baselines of the state-of the-art.
 
 ## Prerequisites
-
----
-
- **Library Name** | **Version**                         
+**Library Name** | **Version**                         
 ---------------------------|----------------------------------------------
  argumentparsers           | 1.2.1                                        
  audioread                 | 2.1.9                                        
@@ -46,14 +43,7 @@ encouraging experimental results, even compared to the baselines of the state-of
  tensorflow                | 2.6.0                                        
                             
 
-
-
-
-
 ## Usage
-
----
-
 The application can be run from inside this folder through a UNIX terminal using the following command: `python3 main.py`
 
 The arguments that need to be specified when running the script are:
