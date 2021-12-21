@@ -12,10 +12,10 @@ SCALERS_FOLDER = "speech_emotion_recognition/data_scaler"
 def ensemble_prediction_voting(predictions):
     """
 
-    :param predictions:
-    :type predictions:
-    :return:
-    :rtype:
+    :param predictions: a list containing the predictions of all the classifiers
+    :type predictions: list
+    :return: a value representing if a disruptive situation has been detected or not
+    :rtype: int
     """
     count_ones = 0
     count_zeros = 0
@@ -31,11 +31,12 @@ def ensemble_prediction_voting(predictions):
 def ensemble_prediction_avg_1(predictions):
     """
 
-    :param predictions:
-    :type predictions:
-    :return:
-    :rtype:
+    :param predictions: a list containing the predictions of all the classifiers
+    :type predictions: list
+    :return: a value representing if a disruptive situation has been detected or not
+    :rtype: int
     """
+
     threshold = 0.5
     pred_conv = [p for p in predictions if p != 0 and p!= 1 ]
     pred_svm = [p for p in predictions if p == 0 or p== 1 ]
@@ -47,10 +48,10 @@ def ensemble_prediction_avg_1(predictions):
 def ensemble_prediction_avg_2(predictions):
     """
 
-    :param predictions:
-    :type predictions:
-    :return:
-    :rtype:
+    :param predictions: a list containing the predictions of all the classifiers
+    :type predictions: list
+    :return: a value representing if a disruptive situation has been detected or not
+    :rtype: int
     """
     threshold = 0.7
     avg_prediction = sum(predictions) / len(predictions)
@@ -59,16 +60,20 @@ def ensemble_prediction_avg_2(predictions):
 
 def ensemble(samples, prediction_scheme, return_model_predictions = False):
     """
-    prediction_scheme could be: majority, prob, w_prob
-    :param samples: 
-    :type samples: 
-    :param return_model_predictions: 
-    :type return_model_predictions: 
-    :param prediction_scheme: 
-    :type prediction_scheme: 
-    :return: 
-    :rtype: 
+
+    :param samples: an array representing the sampled audio
+    :type samples: np.array, float64
+    :param prediction_scheme: a string representing which aggregation strategy needs to be used.
+                              It could be "majority", "avg_1", "avg_2"
+    :type prediction_scheme: string
+    :param return_model_predictions:
+                                    - False: to return only the final prediction
+                                    - True: to return both the final prediction and the predictions of the single models
+    :type return_model_predictions: boolean
+    :return:  the final prediction or the final prediction and the predictions of the single models
+    :rtype: int or int + list of float64
     """
+
     predictions = []
     model_predictions = {}
     for dirpath, dirnames, filenames in os.walk(MODELS_FOLDER):

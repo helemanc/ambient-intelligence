@@ -1,15 +1,16 @@
 def make_predictions(model, model_type, audio_features, prediction_scheme):
     """
-    :param model:
-    :type model:
-    :param model_type:
-    :type model_type:
-    :param audio_features:
-    :type audio_features:
-    :param prediction_scheme:
-    :type prediction_scheme:
-    :return:
-    :rtype:
+    :param model: an instance of the classifier
+    :type model: a Keras object or a scikit-learn object
+    :param model_type: 'conv' if convolutional model is used, 'svm' if the SVM classifier is used
+    :type model_type: string
+    :param audio_features: array of features
+    :type audio_features: np.array, float64
+    :param prediction_scheme: a string representing the aggregation strategy that needs to be used in the ensemble
+    :type prediction_scheme: string
+    :return: the final prediction if 'prediction_scheme' is set to 'majority', the prediction in terms of probability
+             otherwise
+    :rtype: int or float64
     """
     # return: prediction_probability, final_prediction
     if model_type == 'conv':

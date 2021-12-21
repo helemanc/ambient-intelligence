@@ -25,7 +25,7 @@ parser.add_argument("-f", "--file_audio",
 
 parser.add_argument("-p", "--prediction_scheme",
                     dest="prediction_scheme",
-                    required=False,
+                    required=True,
                     help="Could be 'voting', 'avg_1','avg_2",
                     metavar="XX")
 
@@ -68,6 +68,10 @@ elif args['mode'] == 'real_mic':
     """
     TO DO
     """
+
+
+
+
 
 
 

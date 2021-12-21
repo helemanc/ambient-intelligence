@@ -8,10 +8,10 @@ import datetime
 
 def denoise(samples):
     """
-    :param samples:
-    :type samples:
-    :return:
-    :rtype:
+    :param samples: an array representing the sampled audio file
+    :type samples: float
+    :return: an array representing the clean audio file
+    :rtype: float
     """
     samples_wiener = scipy.signal.wiener(samples)
     return samples_wiener
@@ -19,14 +19,16 @@ def denoise(samples):
 
 def execute_vad_ser(segmenter, filepath, prediction_scheme):
     """
-    :param segmenter:
-    :type segmenter:
-    :param filepath:
-    :type filepath:
-    :param prediction_scheme:
-    :type prediction_scheme:
-    :return:
-    :rtype:
+    :param segmenter: an instance of the Segmenter object of Ina Speech Segementer
+    :type segmenter: Segmenter object
+    :param filepath: a string representing the full-path of the input audio file
+    :type filepath: string
+    :param prediction_scheme: a string representing the aggregation strategy to be used in the ensemble
+    :type prediction_scheme: string
+
+    TO DO
+    :return: an integer flag representing the action to be sent to the control center
+    :rtype: int
     """
 
     samples, sample_rate = fe.read_file(filepath)

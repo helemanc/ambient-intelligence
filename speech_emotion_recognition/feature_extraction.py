@@ -9,21 +9,20 @@ SCALERS_FOLDER = "speech_emotion_recognition/data_scaler"
 
 def read_file(audio_file):
     """
-    :param audio_file:
-    :type audio_file:
-    :return:
-    :rtype:
+    :param audio_file: a string representing the full-path of the input audio file
+    :type audio_file: string
+    :return: an array representing the sampled audio file, sample rate
+    :rtype: np.array, int
     """
     samples, sr = librosa.load(audio_file, res_type='kaiser_fast', sr=16000)
     return samples, sr
 
 def cut_pad(samples):
     """
-
-    :param samples:
-    :type samples:
-    :return:
-    :rtype:
+    :param samples: an array representing the sampled audio
+    :type samples: np.array, float64
+    :return: an array representing the cut or padded audio file
+    :rtype: np.array, float64
     """
     #cut
     if samples.shape[0] > LENGTH_CHOSEN:
@@ -42,10 +41,10 @@ def cut_pad(samples):
 def compute_energy(samples):
     """
 
-    :param samples:
-    :type samples:
-    :return:
-    :rtype:
+    :param samples: an array representing the sampled audio
+    :type samples: float64
+    :return: a value representing the rms on the input audio
+    :rtype: float
     """
     energy = librosa.feature.rms(samples)
     energy = energy.T
@@ -55,10 +54,11 @@ def compute_energy(samples):
 def compute_energy_mean(samples):
     """
 
-    :param samples:
-    :type samples:
-    :return:
-    :rtype:
+
+    :param samples: an array representing the sampled audio
+    :type samples: float64
+    :return: a value representing the average rms on the input audio
+    :rtype: float
     """
     energy = librosa.feature.rms(samples)
     energy = energy.T
@@ -71,16 +71,16 @@ def compute_energy_mean(samples):
 def compute_mfccs(samples, n_mfcc, scaler, feature_energy):
     """
 
-    :param samples:
-    :type samples:
-    :param n_mfcc:
-    :type n_mfcc:
-    :param scaler:
-    :type scaler:
-    :param feature_energy:
-    :type feature_energy:
-    :return:
-    :rtype:
+    :param samples: an array representing the sampled audio
+    :type samples: np.array, float 64
+    :param n_mfcc: the desired number of mfcc
+    :type n_mfcc: int
+    :param scaler: the full-path of the scaler pickle object
+    :type scaler: string
+    :param feature_energy: a value to indicate whether the energy feature should be concatenated to MFCCs
+    :type feature_energy: boolean
+    :return: an of audio features
+    :rtype: np.array, float64
     """
     # Compute MFCCS
     mfccs = librosa.feature.mfcc(y=samples, sr=16000, n_mfcc=n_mfcc)
@@ -115,6 +115,19 @@ def compute_mfccs(samples, n_mfcc, scaler, feature_energy):
     return mfccs
 
 def compute_mfccs_mean(samples, n_mfcc, scaler, feature_energy):
+    """
+
+    :param samples: an array representing the sampled audio
+    :type samples: np.array, float 64
+    :param n_mfcc: the desired number of mfcc
+    :type n_mfcc: int
+    :param scaler: the full-path of the scaler pickle object
+    :type scaler: string
+    :param feature_energy: a value to indicate whether the energy feature should be concatenated to MFCCs
+    :type feature_energy: boolean
+    :return: an of audio features
+    :rtype: np.array, float64
+    """
     mfccs = librosa.feature.mfcc(y=samples, sr=16000, n_mfcc=n_mfcc)
     mfccs = mfccs.T
     mfccs = np.array(mfccs)
@@ -149,14 +162,14 @@ def compute_mfccs_mean(samples, n_mfcc, scaler, feature_energy):
 def mfccs_scaled(samples, scaler, id_exp):
     """
 
-    :param samples:
-    :type samples:
-    :param scaler:
-    :type scaler:
-    :param id_exp:
-    :type id_exp:
-    :return:
-    :rtype:
+    :param samples: an array representing the sampled audio
+    :type samples: np.array, float 64
+    :param scaler: the full-path of the scaler pickle object
+    :type scaler: string
+    :param id_exp: a string that identifies the experiment
+    :type id_exp: string
+    :return: an array of features
+    :rtype: np.array, float64
     """
     parts = id_exp.split('_')
     num_exp = parts[0]
@@ -186,19 +199,3 @@ def mfccs_scaled(samples, scaler, id_exp):
         mfccs = compute_mfccs_mean(samples, 26, scaler, feature_energy=True)
         return mfccs
 
-
-
-
-
-
-'''
-
-    mfccs = librosa.feature.mfcc(y=samples, sr=16000, n_mfcc=40)
-    mfccs = mfccs.T
-    with open(SCALER_PATH, 'rb') as f:
-        scaler = pickle.load(f)
-    mfccs = scaler.transform(mfccs.reshape(-1, mfccs.shape[-1])).reshape(mfccs.shape)
-    mfccs = np.array(mfccs)
-    mfccs = mfccs.reshape(1, 236, 40)
-    return mfccs
-'''
