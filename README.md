@@ -2,7 +2,7 @@
 Python application for Disruptive Situations Detection in public transports through Speech Emotion Recognition. 
 ![methodology](images/proposed_methodology.png)
 
-This project was developed in the context of my Master's thesis in Artificial intelligence @ University of Bologna. 
+This project was developed in the context of my Master's thesis in [Artificial Intelligence @ University of Bologna](https://corsi.unibo.it/2cycle/artificial-intelligence). 
 
 The aim of the thesis is to de describe a study on the
 application of Machine Learning and Deep Learning methods for Voice Activity Detection (VAD) and Speech Emotion Recognition (SER). 
