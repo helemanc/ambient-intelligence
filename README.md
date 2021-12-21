@@ -19,9 +19,9 @@ namely CNN and SVM, to detect emotions indicative  of disruptive situations such
 We aggregated several models through ensemble learning. The ensemble was evaluated on several datasets and showed 
 encouraging experimental results, even compared to the baselines of the state-of the-art.
 
-## Prerequisites 
+## Prerequisites
 
-----
+---
 
  **Library Name** | **Version**                         
 ---------------------------|----------------------------------------------
@@ -52,7 +52,7 @@ encouraging experimental results, even compared to the baselines of the state-of
 
 ## Usage
 
------
+---
 
 The application can be run from inside this folder through a UNIX terminal using the following command: `python3 main.py`
 
