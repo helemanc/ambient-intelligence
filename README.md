@@ -4,7 +4,7 @@ Python application for Disruptive Situations Detection in public transports thro
 
 This project was developed in the context of my Master's thesis in [Artificial Intelligence @ University of Bologna](https://corsi.unibo.it/2cycle/artificial-intelligence). 
 
-The aim of the thesis is to de describe a study on the
+The aim of the thesis is to describe a study on the
 application of Machine Learning and Deep Learning methods for Voice Activity Detection (VAD) and Speech Emotion Recognition (SER). 
 The study is in the context of European project H2020 - 5GMED whose objective is to detect disruptive situations in 
 public transports. To this end, we developed an architecture,  implemented a prototype and ran validation tests 
