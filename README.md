@@ -62,3 +62,6 @@ Full command example: `python3 main.py -m file -f 'media/03-01-01-01-01-01-01_no
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/helemanc/ambient-intelligence/blob/main/LICENSE) file for details.
+
+## References 
+Eleonora Mancini, “Disruptive Situations Detection on Public Transports through Speech Emotion Recognition” [AMSLaurea](https://amslaurea.unibo.it/id/eprint/24721)
