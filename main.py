@@ -37,10 +37,10 @@ if args['mode'] == 'file' and (args['file_audio']) is None:
 prediction_scheme = args['prediction_scheme']
 # Part 1: Voice Activity Detection
 # Instantiate Segmenter once
-#start_time = datetime.datetime.now()
+# start_time = datetime.datetime.now()
 segmenter = Segmenter(vad_engine='smn', detect_gender=False)
-#elapsed = datetime.datetime.now() - start_time
-#print("Time elapsed for Segmenter instatiation", elapsed)
+# elapsed = datetime.datetime.now() - start_time
+# print("Time elapsed for Segmenter instatiation", elapsed)
 
 # Read audio from wav file
 if args['mode'] == 'file':
@@ -54,8 +54,8 @@ elif args['mode'] == 'mic':
             r = sr.Recognizer()
             with sr.Microphone() as source:
                 print("Speak:")  # REMOVE: this is used only for the purpose of demonstration
-                audio = r.listen(source, phrase_time_limit=5) # the timout set here is equal to length chosen
-                                                              # to cut/pad training
+                audio = r.listen(source, phrase_time_limit=5)  # the timout set here is equal to length chosen
+                                                               # to cut/pad training
                 filepath = "voice_activity_detection/tmp.wav"
                 with open(filepath, "wb") as f:
                     f.write(audio.get_wav_data(convert_rate=16000))
@@ -68,10 +68,4 @@ elif args['mode'] == 'real_mic':
     """
     TO DO
     """
-
-
-
-
-
-
 

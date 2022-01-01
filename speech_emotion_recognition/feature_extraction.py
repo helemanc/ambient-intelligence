@@ -7,8 +7,10 @@ import os
 LENGTH_CHOSEN = 80000
 SCALERS_FOLDER = "speech_emotion_recognition/data_scaler"
 
+
 def read_file(audio_file):
     """
+
     :param audio_file: a string representing the full-path of the input audio file
     :type audio_file: string
     :return: an array representing the sampled audio file, sample rate
@@ -17,20 +19,22 @@ def read_file(audio_file):
     samples, sr = librosa.load(audio_file, res_type='kaiser_fast', sr=16000)
     return samples, sr
 
+
 def cut_pad(samples):
     """
+
     :param samples: an array representing the sampled audio
     :type samples: np.array, float64
     :return: an array representing the cut or padded audio file
     :rtype: np.array, float64
     """
-    #cut
+    # cut
     if samples.shape[0] > LENGTH_CHOSEN:
         new_samples = samples[:LENGTH_CHOSEN]
-    #pad
+    # pad
     elif samples.shape[0] < LENGTH_CHOSEN:
         new_samples = np.pad(samples, math.ceil((LENGTH_CHOSEN - samples.shape[0]) / 2), mode='median')
-    #nothing
+    # nothing
     else:
         new_samples = samples
     if len(new_samples) == 80001:
@@ -51,6 +55,7 @@ def compute_energy(samples):
     energy = np.array(energy)
     return energy
 
+
 def compute_energy_mean(samples):
     """
 
@@ -65,7 +70,6 @@ def compute_energy_mean(samples):
     energy = np.array(energy)
     energy = np.mean(energy, axis=0)
     return energy
-
 
 
 def compute_mfccs(samples, n_mfcc, scaler, feature_energy):
@@ -86,7 +90,7 @@ def compute_mfccs(samples, n_mfcc, scaler, feature_energy):
     mfccs = librosa.feature.mfcc(y=samples, sr=16000, n_mfcc=n_mfcc)
     mfccs = mfccs.T
     mfccs = np.array(mfccs)
-    mfccs = mfccs[:, 1:] # get rid of the first component
+    mfccs = mfccs[:, 1:]  # get rid of the first component
 
     # Compute energy, if required
     if feature_energy == True:
@@ -104,15 +108,16 @@ def compute_mfccs(samples, n_mfcc, scaler, feature_energy):
 
     # Load scaler
     SCALER_PATH = os.path.join(SCALERS_FOLDER, scaler)
-    #print("SCALER PATH", SCALER_PATH)
+    # print("SCALER PATH", SCALER_PATH)
     with open(SCALER_PATH, 'rb') as f:
         scaler = pickle.load(f)
 
-    #print("Shape MFCCS", mfccs.shape)
+    # print("Shape MFCCS", mfccs.shape)
     # Scale data
     mfccs = scaler.transform(mfccs.reshape(-1, mfccs.shape[-1])).reshape(mfccs.shape)
 
     return mfccs
+
 
 def compute_mfccs_mean(samples, n_mfcc, scaler, feature_energy):
     """
@@ -132,13 +137,13 @@ def compute_mfccs_mean(samples, n_mfcc, scaler, feature_energy):
     mfccs = mfccs.T
     mfccs = np.array(mfccs)
     mfccs = np.mean(mfccs[:, 1:], axis=0)
-    #print("Shape MFCCS", mfccs.shape)
+    # print("Shape MFCCS", mfccs.shape)
 
     # Compute energy, if required
     if feature_energy == True:
         energy = compute_energy_mean(samples)
         features = []
-        conc = np.concatenate((mfccs, energy), axis = None)
+        conc = np.concatenate((mfccs, energy), axis=None)
         features.append(conc)
         mfccs = np.array(features)
 
@@ -149,7 +154,7 @@ def compute_mfccs_mean(samples, n_mfcc, scaler, feature_energy):
         mfccs = mfccs.reshape(1, n_mfcc - 1)
     # Load scaler
     SCALER_PATH = os.path.join(SCALERS_FOLDER, scaler)
-    #print("SCALER PATH", SCALER_PATH)
+    # print("SCALER PATH", SCALER_PATH)
     with open(SCALER_PATH, 'rb') as f:
         scaler = pickle.load(f)
 
@@ -173,12 +178,12 @@ def mfccs_scaled(samples, scaler, id_exp):
     """
     parts = id_exp.split('_')
     num_exp = parts[0]
-    #print("Computing features for Experiment: ", num_exp)
+    # print("Computing features for Experiment: ", num_exp)
     if num_exp == '1':
-        mfccs = compute_mfccs(samples, 13, scaler, feature_energy = False )
+        mfccs = compute_mfccs(samples, 13, scaler, feature_energy=False)
         return mfccs
     elif num_exp == '2':
-        mfccs = compute_mfccs(samples, 13, scaler, feature_energy = True)
+        mfccs = compute_mfccs(samples, 13, scaler, feature_energy=True)
         return mfccs
     elif num_exp == '3':
         mfccs = compute_mfccs(samples, 26, scaler, feature_energy=False)
@@ -198,4 +203,3 @@ def mfccs_scaled(samples, scaler, id_exp):
     elif num_exp == '8':
         mfccs = compute_mfccs_mean(samples, 26, scaler, feature_energy=True)
         return mfccs
-

@@ -44,12 +44,12 @@ def execute_vad_ser(segmenter, filepath, prediction_scheme):
         print("The audio contains speech. \nStarting Speech Emotion Recognition process.\n")
         print("#########################################\n")
 
-        #start_time = datetime.datetime.now()
+        # start_time = datetime.datetime.now()
 
         final_prediction = ensemble.ensemble(new_samples, prediction_scheme)
 
-        #elapsed = datetime.datetime.now() - start_time
-        #print("Time elapsed for SER", elapsed)
+        # elapsed = datetime.datetime.now() - start_time
+        # print("Time elapsed for SER", elapsed)
 
         if final_prediction == 1:
             print("Speech contains disruptive emotion.")
@@ -67,18 +67,18 @@ def resample(input_data, sample_rate, required_sample_rate=16000, amplify=False)
     :type sample_rate: int
     :param required_sample_rate: Sample rate to resample original audio, defaults to 16000
     :type required_sample_rate: int, optional
-    :param amplify: Wether to amplify audio volume, defaults to False
+    :param amplify: Whether to amplify audio volume, defaults to False
     :type amplify: bool, optional
     :return: Resampled audio and new sample rate
     :rtype: numpy.ndarray, int
     """
     if sample_rate < required_sample_rate:
-        resampling_factor = int(round(required_sample_rate/sample_rate,0))
+        resampling_factor = int(round(required_sample_rate/sample_rate, 0))
         new_rate = sample_rate * resampling_factor
         samples = len(input_data) * resampling_factor
         resampled = signal.resample(input_data, samples)
     elif sample_rate > required_sample_rate:
-        resampling_factor = int(round(sample_rate/required_sample_rate,0))
+        resampling_factor = int(round(sample_rate/required_sample_rate, 0))
         new_rate = int(sample_rate / resampling_factor)
         resampled = signal.decimate(input_data, resampling_factor)
     else:
@@ -93,4 +93,3 @@ def resample(input_data, sample_rate, required_sample_rate=16000, amplify=False)
         resampled = resampled * amplify_factor
         resampled = resampled.round()
     return resampled.astype(np.float32), new_rate
-
