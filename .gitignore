@@ -145,3 +145,5 @@ speech_emotion_recognition/datasets/
 /voice_activity_detection/validation/datasets/
 /notebooks_binary_model/data_model/
 /notebooks_binary_model/data_model_augmented/
+/notebooks_binary_model/recovery_models/
+
