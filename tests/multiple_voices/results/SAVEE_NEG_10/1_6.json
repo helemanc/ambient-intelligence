@@ -1,30 +1,30 @@
 {
     "precision":{
         "0":0.0,
-        "1":0.0,
-        "accuracy":0.0,
-        "macro avg":0.0,
-        "weighted avg":0.0
+        "1":1.0,
+        "accuracy":0.3333333333,
+        "macro avg":0.5,
+        "weighted avg":1.0
     },
     "recall":{
         "0":0.0,
-        "1":0.0,
-        "accuracy":0.0,
-        "macro avg":0.0,
-        "weighted avg":0.0
+        "1":0.3333333333,
+        "accuracy":0.3333333333,
+        "macro avg":0.1666666667,
+        "weighted avg":0.3333333333
     },
     "f1-score":{
         "0":0.0,
-        "1":0.0,
-        "accuracy":0.0,
-        "macro avg":0.0,
-        "weighted avg":0.0
+        "1":0.5,
+        "accuracy":0.3333333333,
+        "macro avg":0.25,
+        "weighted avg":0.5
     },
     "support":{
         "0":0.0,
-        "1":1.0,
-        "accuracy":0.0,
-        "macro avg":1.0,
-        "weighted avg":1.0
+        "1":6.0,
+        "accuracy":0.3333333333,
+        "macro avg":6.0,
+        "weighted avg":6.0
     }
 }

@@ -146,4 +146,4 @@ speech_emotion_recognition/datasets/
 /notebooks_binary_model/data_model/
 /notebooks_binary_model/data_model_augmented/
 /notebooks_binary_model/recovery_models/
-
+/tests/multiple_voices/overlapped_audio_files

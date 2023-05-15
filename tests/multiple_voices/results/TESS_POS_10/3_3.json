@@ -21,10 +21,10 @@
         "weighted avg":0.0
     },
     "support":{
-        "0":1.0,
+        "0":60.0,
         "1":0.0,
         "accuracy":0.0,
-        "macro avg":1.0,
-        "weighted avg":1.0
+        "macro avg":60.0,
+        "weighted avg":60.0
     }
 }
