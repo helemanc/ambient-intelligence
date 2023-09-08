@@ -18,7 +18,11 @@ tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 MODELS_FOLDER = "models"
 SCALERS_FOLDER = "scalers"
-main_path = '/home/emancini/Desktop/Repositories_Ele/ambient-intelligence/speech_emotion_recognition/datasets'
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# get par dir of current dir
+par_project_dir = os.path.dirname(project_dir)
+main_path = os.path.join(par_project_dir, "speech_emotion_recognition", "datasets")
+#main_path = '/home/emancini/Desktop/Repositories_Ele/ambient-intelligence/speech_emotion_recognition/datasets'
 TESS = os.path.join(main_path, "tess/TESS Toronto emotional speech set data/") 
 RAV = os.path.join(main_path, "ravdess-emotional-speech-audio/audio_speech_actors_01-24")
 SAVEE = os.path.join(main_path, "savee/ALL/")
@@ -415,6 +419,19 @@ def extract_crema(gender=False):
     actors = []
     gender = []
 
+    
+    # we store the values of actors that we used during experiments 
+    females_val = [43, 61, 40, 47, 73, 24]
+    males_val = [62, 68, 64, 83, 70, 26]
+    females_test = [8, 79, 12, 25, 72, 82]
+    males_test =  [16, 19, 38, 35, 27, 90]
+
+    males_to_remove = [17, 80, 88]
+    # create females_train by removing from females all numbers that are in females val and test
+    females_train = [x for x in females if x not in females_test and x not in females_val]
+    males_train = [x for x in males if x not in males_test and x not in males_val and x not in males_to_remove]
+
+
 
 
 
@@ -456,28 +473,29 @@ def extract_crema(gender=False):
     path_df = pd.DataFrame(file_path, columns=['path'])
     actors_df = pd.DataFrame(actors, columns=['actors'])
     gender_df = pd.DataFrame(gender, columns=['gender'])                      
-    Crema_df = pd.concat([emotion_df, actors_df, gender_df, path_df], axis=1)
+    #Crema_df = pd.concat([emotion_df, actors_df, gender_df, path_df], axis=1)
+    CREMA_df = pd.concat([emotion_df, actors_df, gender_df, path_df], axis=1)
 
     actor_files = {}
 
-    for index, row in Crema_df.iterrows():
-        actor = row['actors']
-        if actor not in actor_files.keys(): 
-            actor_files[actor] = 1
-        else: 
-            actor_files[actor]+=1
+    # for index, row in Crema_df.iterrows():
+    #     actor = row['actors']
+    #     if actor not in actor_files.keys(): 
+    #         actor_files[actor] = 1
+    #     else: 
+    #         actor_files[actor]+=1
     
-    males_to_remove = ['17', '80', '88']
-    new_df = []
-    for index, row in Crema_df.iterrows(): 
-        if row['actors'] not in males_to_remove: 
-            new_df.append(row)
-    CREMA_df = pd.DataFrame(new_df)
+    # males_to_remove = ['17', '80', '88']
+    # new_df = []
+    # for index, row in Crema_df.iterrows(): 
+    #     if row['actors'] not in males_to_remove: 
+    #         new_df.append(row)
+    # CREMA_df = pd.DataFrame(new_df)
 
-    new_df = []
-    for index, row in Crema_df.iterrows(): 
-        if row['actors'] not in males_to_remove: 
-            new_df.append(row)
+    # new_df = []
+    # for index, row in Crema_df.iterrows(): 
+    #     if row['actors'] not in males_to_remove: 
+    #         new_df.append(row)
     count_males = 0 
     count_females = 0 
     male_list = []
@@ -493,43 +511,64 @@ def extract_crema(gender=False):
             count_females +=1
             if actor not in female_list: 
                 female_list.append(actor)
+    print("Females, males", count_females, count_males)
+    print("Females, males debug", len(females_train)+len(females_val)+len(females_test), 
+                                  len(males_train)+len(males_val)+len(males_test)  )
+
     CREMA_train = []
     CREMA_val = []
     CREMA_test = []
     CREMA_test_f = []
     CREMA_test_m = [] 
 
-    females_train = random.sample(female_list, 32)
-    males_train = random.sample(male_list, 32)
+    # females_train = random.sample(female_list, 32)
+    # males_train = random.sample(male_list, 32)
 
-    # remove the elements assigned to train 
-    for element in females_train:
-        if element in female_list:
-            female_list.remove(element)
+    # # remove the elements assigned to train 
+    # for element in females_train:
+    #     if element in female_list:
+    #         female_list.remove(element)
             
-    for element in males_train:
-        if element in male_list:
-            male_list.remove(element)
+    # for element in males_train:
+    #     if element in male_list:
+    #         male_list.remove(element)
 
             
-    females_val = random.sample(female_list, 6) 
-    males_val = random.sample(male_list, 6) 
+    # females_val = random.sample(female_list, 6) 
+    # males_val = random.sample(male_list, 6) 
 
-    # remove the elements assigned to val
-    for element in females_val:
-        if element in female_list:
-            female_list.remove(element)
+    # # remove the elements assigned to val
+    # for element in females_val:
+    #     if element in female_list:
+    #         female_list.remove(element)
             
-    for element in males_val:
-        if element in male_list:
-            male_list.remove(element)
+    # for element in males_val:
+    #     if element in male_list:
+    #         male_list.remove(element)
             
-    females_test = random.sample(female_list, 6) 
-    males_test = random.sample(male_list, 6)  
+    # females_test = random.sample(female_list, 6) 
+    # males_test = random.sample(male_list, 6)  
 
     train = females_train + males_train 
     val = females_val + males_val 
-    test = females_test + males_test   
+    test = females_test + males_test
+
+    # transform list of ints to list of strings
+    train = transform_digits_to_str(train)
+    val = transform_digits_to_str(val)
+    test = transform_digits_to_str(test)
+
+    # do the same for males and females lists
+    females_train = transform_digits_to_str(females_train)
+    males_train = transform_digits_to_str(males_train)
+    females_val  = transform_digits_to_str(females_val)
+    males_val = transform_digits_to_str(males_val)
+    females_test = transform_digits_to_str(females_test)
+    males_test = transform_digits_to_str(males_test)
+
+
+    print("Females Test", females_test)
+    print("Males Test", males_test)
 
     for index, row in CREMA_df.iterrows(): 
         gender = row['gender']
@@ -560,13 +599,13 @@ def extract_crema(gender=False):
     else: 
         CREMA_test = pd.DataFrame(CREMA_test)
 
-    CREMA_train = CREMA_train.drop(['actors'], 1)
-    CREMA_val = CREMA_val.drop(['actors'], 1)
+    CREMA_train = CREMA_train.drop(['actors'], axis = 1)
+    CREMA_val = CREMA_val.drop(['actors'], axis = 1)
     if gender: 
-        CREMA_test_f = CREMA_test_f.drop(['actors'], 1)
-        CREMA_test_m = CREMA_test_m.drop(['actors'], 1)
+        CREMA_test_f = CREMA_test_f.drop(['actors'], axis = 1)
+        CREMA_test_m = CREMA_test_m.drop(['actors'], axis = 1)
     else:
-        CREMA_test = CREMA_test.drop(['actors'], 1)
+        CREMA_test = CREMA_test.drop(['actors'], axis = 1)
     
     CREMA_train = CREMA_train.reset_index(drop=True) 
     CREMA_val = CREMA_val.reset_index(drop = True) 
@@ -577,9 +616,29 @@ def extract_crema(gender=False):
         CREMA_test = CREMA_test.reset_index(drop = True)
 
     if gender: 
+        # print shapes of train, val and test sets
+        print("CREMA train shape: ", CREMA_train.shape)
+        print("CREMA val shape: ", CREMA_val.shape)
+        print("CREMA test_f shape: ", CREMA_test_f.shape)
+        print("CREMA test_m shape: ", CREMA_test_m.shape)
+        
+
         return CREMA_train, CREMA_val, CREMA_test_f, CREMA_test_m
     else:
+        print("CREMA train shape: ", CREMA_train.shape)
+        print("CREMA val shape: ", CREMA_val.shape)
+        print("CREMA test  shape: ", CREMA_test.shape)
         return CREMA_train, CREMA_val, CREMA_test
+
+
+def transform_digits_to_str(lst):
+    transformed_list = []
+    for num in lst:
+        num_str = str(num)
+        if len(num_str) == 1:
+            num_str = '0' + num_str
+        transformed_list.append(num_str)
+    return transformed_list
 
 def denoise(samples):
     """
@@ -732,24 +791,29 @@ def make_test(df_test, model_list, type):
         df.to_csv(pathname)
 
             
-RAV_train, RAV_val, RAV_test_m, RAV_test_f = extract_ravdess(gender=True)
-SAVEE_train, SAVEE_val, SAVEE_test = extract_savee() # test male 
-TESS_train, TESS_test = extract_tess() # test female 
+# RAV_train, RAV_val, RAV_test_m, RAV_test_f = extract_ravdess(gender=True)
+# SAVEE_train, SAVEE_val, SAVEE_test = extract_savee() # test male 
+# TESS_train, TESS_test = extract_tess() # test female 
 CREMA_train, CREMA_val, CREMA_test_f, CREMA_test_m = extract_crema(gender=True)
 
-RAV_model_list = ['3_2', '3_1', '4_1', '7_1', '7_2', '8_2']
-TESS_model_list = ['3_3', '3_4', '4_3', '5_4', '8_4', '5_3']
-SAVEE_model_list = ['1_6', '3_5', '4_6', '8_5', '5_6', '6_5']
+# RAV_model_list = ['3_2', '3_1', '4_1', '7_1', '7_2', '8_2']
+# TESS_model_list = ['3_3', '3_4', '4_3', '5_4', '8_4', '5_3']
+# SAVEE_model_list = ['1_6', '3_5', '4_6', '8_5', '5_6', '6_5']
 CREMA_model_list = ['2_8', '1_8', '3_7', '7_8', '8_8', '6_8']
 
-best_models_list = RAV_model_list + SAVEE_model_list + TESS_model_list + CREMA_model_list
+#best_models_list = RAV_model_list + SAVEE_model_list + TESS_model_list + CREMA_model_list
 
 #make_test(RAV_test_f, RAV_model_list, 'ravdess_f')
 #make_test(RAV_test_m, RAV_model_list, 'ravdess_m')
 #make_test(SAVEE_test, SAVEE_model_list, 'savee_m')
 #make_test(TESS_test, TESS_model_list, 'tess_f')
-#make_test(CREMA_test_f, CREMA_model_list, 'crema_f')
+make_test(CREMA_test_f, CREMA_model_list, 'crema_f')
 make_test(CREMA_test_m, CREMA_model_list, 'crema_m')
+
+# unify CREMA test sets by unifying dataframes
+CREMA_test = pd.concat([CREMA_test_f, CREMA_test_m], ignore_index=True, sort=False)
+CREMA_test = CREMA_test.reset_index(drop=True)
+make_test(CREMA_test, CREMA_model_list, 'crema')
 
 
 
