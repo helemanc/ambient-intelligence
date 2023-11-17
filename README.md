@@ -79,7 +79,6 @@ author = {Eleonora Mancini and Andrea Galassi and Federico Ruggeri and Paolo Tor
 keywords = {Speech Emotion Recognition, Affective Computing, Natural Language Processing, Machine Learning, Data Augmentation}
 }
 
-```bibtex
 @phdthesis{amslaurea24721,
 title = {Disruptive Situations Detection on Public Transports through Speech Emotion Recognition},
 author = {Eleonora Mancini},
