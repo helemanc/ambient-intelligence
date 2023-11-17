@@ -78,3 +78,13 @@ url = {https://www.sciencedirect.com/science/article/pii/S2667305323001308},
 author = {Eleonora Mancini and Andrea Galassi and Federico Ruggeri and Paolo Torroni},
 keywords = {Speech Emotion Recognition, Affective Computing, Natural Language Processing, Machine Learning, Data Augmentation}
 }
+
+```bibtex
+@phdthesis{amslaurea24721,
+title = {Disruptive Situations Detection on Public Transports through Speech Emotion Recognition},
+author = {Eleonora Mancini},
+keywords = {Speech Emotion Recognition,Speech Recognition,Voice Activity Detection,Machine Learning,Natural Language Processing,Deep Learning,Convolutional Neural Network,Support Vector Machine,MFCC},
+url = {http://amslaurea.unibo.it/24721/}
+}
+
+
