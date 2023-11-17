@@ -64,4 +64,18 @@ Full command example: `python3 main.py -m file -f 'media/03-01-01-01-01-01-01_no
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/helemanc/ambient-intelligence/blob/main/LICENSE) file for details.
 
 ## References 
-Eleonora Mancini, “Disruptive Situations Detection on Public Transports through Speech Emotion Recognition” [AMSLaurea](https://amslaurea.unibo.it/id/eprint/24721)
+
+Please, cite this work if you use it for your research or business.
+```bibtex
+@article{MANCINI2023200305,
+title = {Disruptive Situation Detection on Public Transport through Speech Emotion Recognition},
+journal = {Intelligent Systems with Applications},
+pages = {200305},
+year = {2023},
+issn = {2667-3053},
+doi = {https://doi.org/10.1016/j.iswa.2023.200305},
+url = {https://www.sciencedirect.com/science/article/pii/S2667305323001308},
+author = {Eleonora Mancini and Andrea Galassi and Federico Ruggeri and Paolo Torroni},
+keywords = {Speech Emotion Recognition, Affective Computing, Natural Language Processing, Machine Learning, Data Augmentation},
+abstract = {Disruptive situations are emotionally-charged events diverging from ordinary behaviour, like people fighting or screaming. Public transports are one type of social environment where disruptive situation may occur, and their timely detection may bring significant improvements to people's safety. Current approaches to disruptive situation detection, typically based on CCTVs, do not take the emotional dimension into account. Conversely, we propose to frame such a problem as a speech emotion recognition task. To validate our hypotheses, we carry out an extensive experimental study focusing on the development of a model characterized by speaker/gender independence, robustness to noise, and robustness against multiple voices. We investigate a variety of audio features, classifiers, datasets, and data augmentation methods in an effort to define effective ways to address this under-investigated yet socially significant problem. Our experiments show that the proposed systems attain an F1 score of over 90% on the disruptive class, even when introducing noisy elements such as environmental noise or multiple overlapping voices. This robust performance is achieved with datasets characterized by speaker variability, gender diversity, and varying number of samples. Such promising results indicate that framing disruptive situation detection as a speech emotion recognition task could pave the way to the adoption of new types of intelligent systems with a positive impact on public safety.}
+}
